@@ -1,12 +1,14 @@
 # Maquetación - Front End B-learning
 
-	## Pre-maquetado de página Tía Tomate
+## Pre-maquetado de página Tía Tomate
 
-PREMAQUETADO
-<Información entregada por el cliente>
--Desea mostrar la pasión que sienten por sus tomates.
--Dar énfasis a la compra de sus productos
--Mostrar el logo de la empresa
+PREMAQUETADO:
+
+*Información entregada por el cliente*
+
+- Desea mostrar la pasión que sienten por sus tomates.
+- Dar énfasis a la compra de sus productos
+- Mostrar el logo de la empresa
 
 < Requerimientos Generales> 
 	-La página tendrá una barra de navegacion con logo e items.
