@@ -23,25 +23,28 @@ PREMAQUETADO:
 
 *Requerimientos Técnicos*
 
-	- el icono de la empresa se ubicará en la barra de navegación y en el footer.
-	- la barra de navegación será de color blanco para resaltar el logo de la empresa.
-	- la sección tipo blog tendrá sistema de grillas con dos columas para agregar imagen y párrafo por separado.
-	- la sección Nosotros, tendrá una imagen de la dueña, y a la derecha de la imagen habrá una breve biografía. Reperitemos esto con el segundo dueño. las imágenes de esta sección serán más pequeñas.
-	- La sección para comprar el producto, sólo llevará un título acompañando un botón para comprar. esta sección llebará un background rojo en todo el ancho de la web para resaltar la sección.
-	- Para la estructura HTML las secciones tendrán el sisguiente nombre de bloque.
-		- navbar: para el bloque barra de navegación
-		- header: para el bloque de cabecera
-		- blog: para el bloque de los productos
-		- features: para el bloque de nosotros
-		- negocio: para el bloque de compra de producto
-		- footer: para el bloque footer.
+- el icono de la empresa se ubicará en la barra de navegación y en el footer.
+- la barra de navegación será de color blanco para resaltar el logo de la empresa.
+- la sección tipo blog tendrá sistema de grillas con dos columas para agregar imagen y párrafo por separado.
+- la sección Nosotros, tendrá una imagen de la dueña, y a la derecha de la imagen habrá una breve biografía. Reperitemos esto con el segundo dueño. las imágenes de esta sección serán más pequeñas.
+- La sección para comprar el producto, sólo llevará un título acompañando un botón para comprar. esta sección llebará un background rojo en todo el ancho de la web para resaltar la sección.
+- Para la estructura HTML las secciones tendrán el sisguiente nombre de bloque.
+- navbar: para el bloque barra de navegación
+- header: para el bloque de cabecera
+- blog: para el bloque de los productos
+- features: para el bloque de nosotros
+- negocio: para el bloque de compra de producto
+- footer: para el bloque footer.
 
-	- Utilizaremos Metodología BEM para la creación de clases, por ejemplo;
-	## <div class="navbar">
-		<div class="navbar_logo"></div>
-	</div> ## 
+- Utilizaremos Metodología BEM para la creación de clases, por ejemplo;
 
-* Requerimientos Visuales*
+```html
+<div class="navbar">
+<div class="navbar_logo"></div>
+</div>
+ ```
+
+*Requerimientos Visuales*
 
 	- El layout utilizará Bootstrap.
 	- Fuentes: utilizaremos google fonts.
@@ -54,24 +57,22 @@ PREMAQUETADO:
 
 
 ##Estructura del directorio:
-	-Assets:
-		-css
-			-estilo.css
-			-bootstrap.min.css
-		-img
-			-imagenes.jpg
-		-fonts
-		-colors
-		-js
-			-bootstrap.min.js
-			-jquery.js
-			-funciones.js
-	-index.html
-	-readme.md
 
-
-
-
-
+```bash
+├── Assets
+│   ├── css
+│   │   ├── estilo.css
+│   │   └── bootstrap.min.css
+│   ├── img
+│   │   └── imagenes.jpg
+│   ├── fonts
+│   ├── colors
+│   └── js
+│       ├── bootstrap.min.js
+│       ├── jquery.js
+│       └── funciones.js
+├── index.html
+└── readme.md
+```
 
 
